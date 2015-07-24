@@ -2,20 +2,7 @@ function visibility(source)
 		{
 			var personal_div=document.getElementById("personal");
 			var educational_div=document.getElementById("educational");
-			if(source==1)
-			{
-				if(personal_div.style.display=='block')
-				{
-					personal_div.style.display='none';
-					educational_div.style.display='block';
-				}
-				else
-				{
-					personal_div.style.display='block';
-					educational_div.style.display='none';
-				}
 
-			}
 			if(source==2)
 			{
 				if(educational_div.style.display=='block')
